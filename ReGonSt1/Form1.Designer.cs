@@ -70,7 +70,9 @@
             this.ClientSize = new System.Drawing.Size(1038, 681);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ReGonSt 1.0.0";
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
