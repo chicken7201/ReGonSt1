@@ -38,6 +38,8 @@
             this.panel_Settings = new System.Windows.Forms.Panel();
             this.panel_Help = new System.Windows.Forms.Panel();
             this.panel_About = new System.Windows.Forms.Panel();
+            this.panel_Menu = new System.Windows.Forms.Panel();
+            this.button_Menu = new System.Windows.Forms.Button();
             this.button_About = new System.Windows.Forms.Button();
             this.button_Help = new System.Windows.Forms.Button();
             this.button_Settings = new System.Windows.Forms.Button();
@@ -51,6 +53,7 @@
             this.panel_Settings.SuspendLayout();
             this.panel_Help.SuspendLayout();
             this.panel_About.SuspendLayout();
+            this.panel_Menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,6 +81,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.LightGray;
+            this.panel2.Controls.Add(this.panel_Menu);
             this.panel2.Controls.Add(this.panel_About);
             this.panel2.Controls.Add(this.flowLayoutPanel1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -103,13 +107,13 @@
             this.panel3.Controls.Add(this.panel_Home);
             this.panel3.Location = new System.Drawing.Point(3, 3);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(266, 275);
+            this.panel3.Size = new System.Drawing.Size(266, 340);
             this.panel3.TabIndex = 0;
             // 
             // panel_Home
             // 
             this.panel_Home.Controls.Add(this.button_Home);
-            this.panel_Home.Location = new System.Drawing.Point(0, 3);
+            this.panel_Home.Location = new System.Drawing.Point(0, 93);
             this.panel_Home.Name = "panel_Home";
             this.panel_Home.Size = new System.Drawing.Size(266, 62);
             this.panel_Home.TabIndex = 1;
@@ -117,7 +121,7 @@
             // panel_Settings
             // 
             this.panel_Settings.Controls.Add(this.button_Settings);
-            this.panel_Settings.Location = new System.Drawing.Point(0, 63);
+            this.panel_Settings.Location = new System.Drawing.Point(0, 153);
             this.panel_Settings.Name = "panel_Settings";
             this.panel_Settings.Size = new System.Drawing.Size(266, 62);
             this.panel_Settings.TabIndex = 2;
@@ -126,7 +130,7 @@
             // 
             this.panel_Help.BackColor = System.Drawing.Color.Silver;
             this.panel_Help.Controls.Add(this.button_Help);
-            this.panel_Help.Location = new System.Drawing.Point(0, 123);
+            this.panel_Help.Location = new System.Drawing.Point(0, 213);
             this.panel_Help.Name = "panel_Help";
             this.panel_Help.Size = new System.Drawing.Size(266, 62);
             this.panel_Help.TabIndex = 1;
@@ -135,10 +139,35 @@
             // 
             this.panel_About.BackColor = System.Drawing.Color.Silver;
             this.panel_About.Controls.Add(this.button_About);
-            this.panel_About.Location = new System.Drawing.Point(3, 183);
+            this.panel_About.Location = new System.Drawing.Point(3, 273);
             this.panel_About.Name = "panel_About";
             this.panel_About.Size = new System.Drawing.Size(266, 62);
             this.panel_About.TabIndex = 1;
+            // 
+            // panel_Menu
+            // 
+            this.panel_Menu.BackColor = System.Drawing.Color.Silver;
+            this.panel_Menu.Controls.Add(this.button_Menu);
+            this.panel_Menu.Location = new System.Drawing.Point(0, 0);
+            this.panel_Menu.Name = "panel_Menu";
+            this.panel_Menu.Size = new System.Drawing.Size(266, 90);
+            this.panel_Menu.TabIndex = 2;
+            // 
+            // button_Menu
+            // 
+            this.button_Menu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Menu.Font = new System.Drawing.Font("Segoe Print", 21.75F);
+            this.button_Menu.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.button_Menu.Image = global::ReGonSt1.Properties.Resources.menu_bar;
+            this.button_Menu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Menu.Location = new System.Drawing.Point(-13, -9);
+            this.button_Menu.Name = "button_Menu";
+            this.button_Menu.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.button_Menu.Size = new System.Drawing.Size(300, 108);
+            this.button_Menu.TabIndex = 3;
+            this.button_Menu.Text = "   Menu";
+            this.button_Menu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Menu.UseVisualStyleBackColor = true;
             // 
             // button_About
             // 
@@ -232,6 +261,7 @@
             this.panel_Settings.ResumeLayout(false);
             this.panel_Help.ResumeLayout(false);
             this.panel_About.ResumeLayout(false);
+            this.panel_Menu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -253,6 +283,8 @@
         private System.Windows.Forms.Button button_Help;
         private System.Windows.Forms.Panel panel_About;
         private System.Windows.Forms.Button button_About;
+        private System.Windows.Forms.Panel panel_Menu;
+        private System.Windows.Forms.Button button_Menu;
     }
 }
 
