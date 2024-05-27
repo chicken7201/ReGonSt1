@@ -28,11 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.labelName = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.sidebar = new System.Windows.Forms.FlowLayoutPanel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel_Home = new System.Windows.Forms.Panel();
             this.panel_Settings = new System.Windows.Forms.Panel();
@@ -45,9 +46,10 @@
             this.button_Settings = new System.Windows.Forms.Button();
             this.button_Home = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
+            this.sidebar.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel_Home.SuspendLayout();
             this.panel_Settings.SuspendLayout();
@@ -83,22 +85,24 @@
             this.panel2.BackColor = System.Drawing.Color.LightGray;
             this.panel2.Controls.Add(this.panel_Menu);
             this.panel2.Controls.Add(this.panel_About);
-            this.panel2.Controls.Add(this.flowLayoutPanel1);
+            this.panel2.Controls.Add(this.sidebar);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 68);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1038, 613);
             this.panel2.TabIndex = 1;
             // 
-            // flowLayoutPanel1
+            // sidebar
             // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Silver;
-            this.flowLayoutPanel1.Controls.Add(this.panel3);
-            this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(269, 613);
-            this.flowLayoutPanel1.TabIndex = 0;
+            this.sidebar.BackColor = System.Drawing.Color.Silver;
+            this.sidebar.Controls.Add(this.panel3);
+            this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
+            this.sidebar.Location = new System.Drawing.Point(0, 0);
+            this.sidebar.MaximumSize = new System.Drawing.Size(269, 613);
+            this.sidebar.MinimumSize = new System.Drawing.Size(57, 613);
+            this.sidebar.Name = "sidebar";
+            this.sidebar.Size = new System.Drawing.Size(57, 613);
+            this.sidebar.TabIndex = 0;
             // 
             // panel3
             // 
@@ -168,9 +172,11 @@
             this.button_Menu.Text = "   Menu";
             this.button_Menu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_Menu.UseVisualStyleBackColor = true;
+            this.button_Menu.Click += new System.EventHandler(this.button_Menu_Click);
             // 
             // button_About
             // 
+            this.button_About.BackColor = System.Drawing.Color.Silver;
             this.button_About.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_About.Font = new System.Drawing.Font("Segoe Print", 21.75F);
             this.button_About.Image = global::ReGonSt1.Properties.Resources.about;
@@ -182,7 +188,7 @@
             this.button_About.TabIndex = 2;
             this.button_About.Text = "   About";
             this.button_About.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_About.UseVisualStyleBackColor = true;
+            this.button_About.UseVisualStyleBackColor = false;
             // 
             // button_Help
             // 
@@ -240,6 +246,10 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // sidebarTimer
+            // 
+            this.sidebarTimer.Tick += new System.EventHandler(this.sidebarTimer_tick);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -255,7 +265,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
-            this.flowLayoutPanel1.ResumeLayout(false);
+            this.sidebar.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel_Home.ResumeLayout(false);
             this.panel_Settings.ResumeLayout(false);
@@ -273,7 +283,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label labelName;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.FlowLayoutPanel sidebar;
         private System.Windows.Forms.Panel panel_Home;
         private System.Windows.Forms.Button button_Home;
         private System.Windows.Forms.Panel panel3;
@@ -285,6 +295,7 @@
         private System.Windows.Forms.Button button_About;
         private System.Windows.Forms.Panel panel_Menu;
         private System.Windows.Forms.Button button_Menu;
+        private System.Windows.Forms.Timer sidebarTimer;
     }
 }
 
