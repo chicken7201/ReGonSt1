@@ -34,28 +34,38 @@
             this.labelName = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.sidebar = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel_Home = new System.Windows.Forms.Panel();
             this.panel_Settings = new System.Windows.Forms.Panel();
             this.panel_Help = new System.Windows.Forms.Panel();
             this.panel_Menu = new System.Windows.Forms.Panel();
             this.sidebarTimer = new System.Windows.Forms.Timer(this.components);
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button_Settings = new System.Windows.Forms.Button();
             this.button_Menu = new System.Windows.Forms.Button();
             this.button_Help = new System.Windows.Forms.Button();
-            this.button_Settings = new System.Windows.Forms.Button();
             this.button_Home = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.SettingsTimer = new System.Windows.Forms.Timer(this.components);
+            this.panel_SettingsContainer = new System.Windows.Forms.Panel();
+            this.panel_Setting_Sub1 = new System.Windows.Forms.Panel();
+            this.button_Setting_Sub1 = new System.Windows.Forms.Button();
+            this.panel_Settings_Sub2 = new System.Windows.Forms.Panel();
+            this.button_Settings_Sub2 = new System.Windows.Forms.Button();
+            this.panel_Settings_Sub3 = new System.Windows.Forms.Panel();
+            this.button_Settings_Sub3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.sidebar.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.panel_Home.SuspendLayout();
             this.panel_Settings.SuspendLayout();
             this.panel_Help.SuspendLayout();
             this.panel_Menu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel_SettingsContainer.SuspendLayout();
+            this.panel_Setting_Sub1.SuspendLayout();
+            this.panel_Settings_Sub2.SuspendLayout();
+            this.panel_Settings_Sub3.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -93,7 +103,10 @@
             // sidebar
             // 
             this.sidebar.BackColor = System.Drawing.Color.Silver;
-            this.sidebar.Controls.Add(this.panel3);
+            this.sidebar.Controls.Add(this.panel_Menu);
+            this.sidebar.Controls.Add(this.panel_Home);
+            this.sidebar.Controls.Add(this.panel_SettingsContainer);
+            this.sidebar.Controls.Add(this.panel_Help);
             this.sidebar.Dock = System.Windows.Forms.DockStyle.Left;
             this.sidebar.Location = new System.Drawing.Point(0, 0);
             this.sidebar.MaximumSize = new System.Drawing.Size(269, 613);
@@ -102,21 +115,10 @@
             this.sidebar.Size = new System.Drawing.Size(269, 613);
             this.sidebar.TabIndex = 0;
             // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.panel_Menu);
-            this.panel3.Controls.Add(this.panel_Help);
-            this.panel3.Controls.Add(this.panel_Settings);
-            this.panel3.Controls.Add(this.panel_Home);
-            this.panel3.Location = new System.Drawing.Point(3, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(389, 338);
-            this.panel3.TabIndex = 0;
-            // 
             // panel_Home
             // 
             this.panel_Home.Controls.Add(this.button_Home);
-            this.panel_Home.Location = new System.Drawing.Point(0, 93);
+            this.panel_Home.Location = new System.Drawing.Point(3, 99);
             this.panel_Home.Name = "panel_Home";
             this.panel_Home.Size = new System.Drawing.Size(266, 62);
             this.panel_Home.TabIndex = 1;
@@ -124,7 +126,7 @@
             // panel_Settings
             // 
             this.panel_Settings.Controls.Add(this.button_Settings);
-            this.panel_Settings.Location = new System.Drawing.Point(0, 153);
+            this.panel_Settings.Location = new System.Drawing.Point(1, 3);
             this.panel_Settings.Name = "panel_Settings";
             this.panel_Settings.Size = new System.Drawing.Size(266, 62);
             this.panel_Settings.TabIndex = 2;
@@ -133,7 +135,7 @@
             // 
             this.panel_Help.BackColor = System.Drawing.Color.Silver;
             this.panel_Help.Controls.Add(this.button_Help);
-            this.panel_Help.Location = new System.Drawing.Point(0, 213);
+            this.panel_Help.Location = new System.Drawing.Point(3, 240);
             this.panel_Help.Name = "panel_Help";
             this.panel_Help.Size = new System.Drawing.Size(266, 62);
             this.panel_Help.TabIndex = 1;
@@ -142,24 +144,31 @@
             // 
             this.panel_Menu.BackColor = System.Drawing.Color.Silver;
             this.panel_Menu.Controls.Add(this.button_Menu);
-            this.panel_Menu.Location = new System.Drawing.Point(0, 0);
+            this.panel_Menu.Location = new System.Drawing.Point(3, 3);
             this.panel_Menu.Name = "panel_Menu";
             this.panel_Menu.Size = new System.Drawing.Size(266, 90);
             this.panel_Menu.TabIndex = 1;
             // 
             // sidebarTimer
             // 
+            this.sidebarTimer.Interval = 10;
             this.sidebarTimer.Tick += new System.EventHandler(this.sidebarTimer_tick);
             // 
-            // pictureBox2
+            // button_Settings
             // 
-            this.pictureBox2.BackgroundImage = global::ReGonSt1.Properties.Resources.about1;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(991, 12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(35, 35);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.button_Settings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Settings.Font = new System.Drawing.Font("Segoe Print", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Settings.Image = global::ReGonSt1.Properties.Resources.control;
+            this.button_Settings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Settings.Location = new System.Drawing.Point(-16, -3);
+            this.button_Settings.Name = "button_Settings";
+            this.button_Settings.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.button_Settings.Size = new System.Drawing.Size(300, 78);
+            this.button_Settings.TabIndex = 0;
+            this.button_Settings.Text = "   Settings";
+            this.button_Settings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Settings.UseVisualStyleBackColor = true;
+            this.button_Settings.Click += new System.EventHandler(this.button_Settings_Click);
             // 
             // button_Menu
             // 
@@ -195,21 +204,6 @@
             this.button_Help.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_Help.UseVisualStyleBackColor = false;
             // 
-            // button_Settings
-            // 
-            this.button_Settings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Settings.Font = new System.Drawing.Font("Segoe Print", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Settings.Image = global::ReGonSt1.Properties.Resources.control;
-            this.button_Settings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_Settings.Location = new System.Drawing.Point(-16, -9);
-            this.button_Settings.Name = "button_Settings";
-            this.button_Settings.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button_Settings.Size = new System.Drawing.Size(300, 78);
-            this.button_Settings.TabIndex = 0;
-            this.button_Settings.Text = "   Settings";
-            this.button_Settings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_Settings.UseVisualStyleBackColor = true;
-            // 
             // button_Home
             // 
             this.button_Home.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -225,6 +219,16 @@
             this.button_Home.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_Home.UseVisualStyleBackColor = true;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = global::ReGonSt1.Properties.Resources.about1;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Location = new System.Drawing.Point(991, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(35, 35);
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -234,6 +238,94 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // SettingsTimer
+            // 
+            this.SettingsTimer.Interval = 10;
+            this.SettingsTimer.Tick += new System.EventHandler(this.SettingsTimer_Tick);
+            // 
+            // panel_SettingsContainer
+            // 
+            this.panel_SettingsContainer.BackColor = System.Drawing.Color.Silver;
+            this.panel_SettingsContainer.Controls.Add(this.panel_Settings_Sub3);
+            this.panel_SettingsContainer.Controls.Add(this.panel_Settings_Sub2);
+            this.panel_SettingsContainer.Controls.Add(this.panel_Setting_Sub1);
+            this.panel_SettingsContainer.Controls.Add(this.panel_Settings);
+            this.panel_SettingsContainer.Location = new System.Drawing.Point(3, 167);
+            this.panel_SettingsContainer.MaximumSize = new System.Drawing.Size(269, 209);
+            this.panel_SettingsContainer.MinimumSize = new System.Drawing.Size(269, 67);
+            this.panel_SettingsContainer.Name = "panel_SettingsContainer";
+            this.panel_SettingsContainer.Size = new System.Drawing.Size(269, 67);
+            this.panel_SettingsContainer.TabIndex = 1;
+            // 
+            // panel_Setting_Sub1
+            // 
+            this.panel_Setting_Sub1.Controls.Add(this.button_Setting_Sub1);
+            this.panel_Setting_Sub1.Location = new System.Drawing.Point(3, 65);
+            this.panel_Setting_Sub1.Name = "panel_Setting_Sub1";
+            this.panel_Setting_Sub1.Size = new System.Drawing.Size(266, 42);
+            this.panel_Setting_Sub1.TabIndex = 3;
+            // 
+            // button_Setting_Sub1
+            // 
+            this.button_Setting_Sub1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Setting_Sub1.Font = new System.Drawing.Font("Segoe Print", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Setting_Sub1.Image = global::ReGonSt1.Properties.Resources.rec;
+            this.button_Setting_Sub1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Setting_Sub1.Location = new System.Drawing.Point(-16, -9);
+            this.button_Setting_Sub1.Name = "button_Setting_Sub1";
+            this.button_Setting_Sub1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.button_Setting_Sub1.Size = new System.Drawing.Size(300, 58);
+            this.button_Setting_Sub1.TabIndex = 0;
+            this.button_Setting_Sub1.Text = "   SubMenu1";
+            this.button_Setting_Sub1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Setting_Sub1.UseVisualStyleBackColor = true;
+            // 
+            // panel_Settings_Sub2
+            // 
+            this.panel_Settings_Sub2.Controls.Add(this.button_Settings_Sub2);
+            this.panel_Settings_Sub2.Location = new System.Drawing.Point(3, 111);
+            this.panel_Settings_Sub2.Name = "panel_Settings_Sub2";
+            this.panel_Settings_Sub2.Size = new System.Drawing.Size(266, 42);
+            this.panel_Settings_Sub2.TabIndex = 4;
+            // 
+            // button_Settings_Sub2
+            // 
+            this.button_Settings_Sub2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Settings_Sub2.Font = new System.Drawing.Font("Segoe Print", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Settings_Sub2.Image = global::ReGonSt1.Properties.Resources.rec;
+            this.button_Settings_Sub2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Settings_Sub2.Location = new System.Drawing.Point(-16, -9);
+            this.button_Settings_Sub2.Name = "button_Settings_Sub2";
+            this.button_Settings_Sub2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.button_Settings_Sub2.Size = new System.Drawing.Size(300, 58);
+            this.button_Settings_Sub2.TabIndex = 0;
+            this.button_Settings_Sub2.Text = "   SubMenu2";
+            this.button_Settings_Sub2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Settings_Sub2.UseVisualStyleBackColor = true;
+            // 
+            // panel_Settings_Sub3
+            // 
+            this.panel_Settings_Sub3.Controls.Add(this.button_Settings_Sub3);
+            this.panel_Settings_Sub3.Location = new System.Drawing.Point(3, 157);
+            this.panel_Settings_Sub3.Name = "panel_Settings_Sub3";
+            this.panel_Settings_Sub3.Size = new System.Drawing.Size(266, 42);
+            this.panel_Settings_Sub3.TabIndex = 4;
+            // 
+            // button_Settings_Sub3
+            // 
+            this.button_Settings_Sub3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Settings_Sub3.Font = new System.Drawing.Font("Segoe Print", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Settings_Sub3.Image = global::ReGonSt1.Properties.Resources.rec;
+            this.button_Settings_Sub3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Settings_Sub3.Location = new System.Drawing.Point(-16, -9);
+            this.button_Settings_Sub3.Name = "button_Settings_Sub3";
+            this.button_Settings_Sub3.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.button_Settings_Sub3.Size = new System.Drawing.Size(300, 58);
+            this.button_Settings_Sub3.TabIndex = 0;
+            this.button_Settings_Sub3.Text = "   SubMenu3";
+            this.button_Settings_Sub3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Settings_Sub3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -251,13 +343,16 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.sidebar.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
             this.panel_Home.ResumeLayout(false);
             this.panel_Settings.ResumeLayout(false);
             this.panel_Help.ResumeLayout(false);
             this.panel_Menu.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel_SettingsContainer.ResumeLayout(false);
+            this.panel_Setting_Sub1.ResumeLayout(false);
+            this.panel_Settings_Sub2.ResumeLayout(false);
+            this.panel_Settings_Sub3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -271,7 +366,6 @@
         private System.Windows.Forms.FlowLayoutPanel sidebar;
         private System.Windows.Forms.Panel panel_Home;
         private System.Windows.Forms.Button button_Home;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel_Settings;
         private System.Windows.Forms.Button button_Settings;
         private System.Windows.Forms.Panel panel_Help;
@@ -280,6 +374,14 @@
         private System.Windows.Forms.Button button_Menu;
         private System.Windows.Forms.Timer sidebarTimer;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Timer SettingsTimer;
+        private System.Windows.Forms.Panel panel_SettingsContainer;
+        private System.Windows.Forms.Panel panel_Settings_Sub3;
+        private System.Windows.Forms.Button button_Settings_Sub3;
+        private System.Windows.Forms.Panel panel_Settings_Sub2;
+        private System.Windows.Forms.Button button_Settings_Sub2;
+        private System.Windows.Forms.Panel panel_Setting_Sub1;
+        private System.Windows.Forms.Button button_Setting_Sub1;
     }
 }
 
