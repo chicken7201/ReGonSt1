@@ -190,7 +190,7 @@
             // 
             this.button_Home.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_Home.Font = new System.Drawing.Font("Segoe Print", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Home.Image = global::ReGonSt1.Properties.Resources.home;
+            this.button_Home.Image = global::ReGonSt1.Properties.Resources.home_button;
             this.button_Home.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_Home.Location = new System.Drawing.Point(-16, -9);
             this.button_Home.Name = "button_Home";
