@@ -34,18 +34,21 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.panel_Home = new System.Windows.Forms.Panel();
+            this.panel_Settings = new System.Windows.Forms.Panel();
+            this.panel_Help = new System.Windows.Forms.Panel();
+            this.button_Help = new System.Windows.Forms.Button();
+            this.button_Settings = new System.Windows.Forms.Button();
+            this.button_Home = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
+            this.panel_Home.SuspendLayout();
+            this.panel_Settings.SuspendLayout();
+            this.panel_Help.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -91,35 +94,84 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.panel5);
-            this.panel3.Controls.Add(this.panel4);
+            this.panel3.Controls.Add(this.panel_Help);
+            this.panel3.Controls.Add(this.panel_Settings);
+            this.panel3.Controls.Add(this.panel_Home);
             this.panel3.Location = new System.Drawing.Point(3, 3);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(266, 275);
             this.panel3.TabIndex = 0;
             // 
-            // panel4
+            // panel_Home
             // 
-            this.panel4.Controls.Add(this.button1);
-            this.panel4.Location = new System.Drawing.Point(0, 3);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(266, 62);
-            this.panel4.TabIndex = 1;
+            this.panel_Home.Controls.Add(this.button_Home);
+            this.panel_Home.Location = new System.Drawing.Point(0, 3);
+            this.panel_Home.Name = "panel_Home";
+            this.panel_Home.Size = new System.Drawing.Size(266, 62);
+            this.panel_Home.TabIndex = 1;
             // 
-            // button1
+            // panel_Settings
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Segoe Print", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = global::ReGonSt1.Properties.Resources.home;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(-16, -9);
-            this.button1.Name = "button1";
-            this.button1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button1.Size = new System.Drawing.Size(300, 78);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "   Home";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.UseVisualStyleBackColor = true;
+            this.panel_Settings.Controls.Add(this.button_Settings);
+            this.panel_Settings.Location = new System.Drawing.Point(0, 63);
+            this.panel_Settings.Name = "panel_Settings";
+            this.panel_Settings.Size = new System.Drawing.Size(266, 62);
+            this.panel_Settings.TabIndex = 2;
+            // 
+            // panel_Help
+            // 
+            this.panel_Help.BackColor = System.Drawing.Color.Silver;
+            this.panel_Help.Controls.Add(this.button_Help);
+            this.panel_Help.Location = new System.Drawing.Point(0, 123);
+            this.panel_Help.Name = "panel_Help";
+            this.panel_Help.Size = new System.Drawing.Size(266, 62);
+            this.panel_Help.TabIndex = 1;
+            // 
+            // button_Help
+            // 
+            this.button_Help.BackColor = System.Drawing.Color.Silver;
+            this.button_Help.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Help.Font = new System.Drawing.Font("Segoe Print", 21.75F);
+            this.button_Help.Image = global::ReGonSt1.Properties.Resources.help;
+            this.button_Help.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Help.Location = new System.Drawing.Point(-13, -7);
+            this.button_Help.Name = "button_Help";
+            this.button_Help.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.button_Help.Size = new System.Drawing.Size(289, 78);
+            this.button_Help.TabIndex = 2;
+            this.button_Help.Text = "   Help";
+            this.button_Help.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Help.UseVisualStyleBackColor = false;
+            // 
+            // button_Settings
+            // 
+            this.button_Settings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Settings.Font = new System.Drawing.Font("Segoe Print", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Settings.Image = global::ReGonSt1.Properties.Resources.control;
+            this.button_Settings.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Settings.Location = new System.Drawing.Point(-16, -9);
+            this.button_Settings.Name = "button_Settings";
+            this.button_Settings.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.button_Settings.Size = new System.Drawing.Size(300, 78);
+            this.button_Settings.TabIndex = 0;
+            this.button_Settings.Text = "   Settings";
+            this.button_Settings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Settings.UseVisualStyleBackColor = true;
+            // 
+            // button_Home
+            // 
+            this.button_Home.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_Home.Font = new System.Drawing.Font("Segoe Print", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Home.Image = global::ReGonSt1.Properties.Resources.home;
+            this.button_Home.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Home.Location = new System.Drawing.Point(-16, -9);
+            this.button_Home.Name = "button_Home";
+            this.button_Home.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.button_Home.Size = new System.Drawing.Size(300, 78);
+            this.button_Home.TabIndex = 0;
+            this.button_Home.Text = "   Home";
+            this.button_Home.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_Home.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
@@ -130,29 +182,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.button2);
-            this.panel5.Location = new System.Drawing.Point(0, 63);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(266, 62);
-            this.panel5.TabIndex = 2;
-            // 
-            // button2
-            // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe Print", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Image = global::ReGonSt1.Properties.Resources.control;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(-16, -9);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(300, 78);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "   Settings";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -171,9 +200,10 @@
             this.panel2.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
+            this.panel_Home.ResumeLayout(false);
+            this.panel_Settings.ResumeLayout(false);
+            this.panel_Help.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -185,11 +215,13 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label labelName;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panel_Home;
+        private System.Windows.Forms.Button button_Home;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel panel_Settings;
+        private System.Windows.Forms.Button button_Settings;
+        private System.Windows.Forms.Panel panel_Help;
+        private System.Windows.Forms.Button button_Help;
     }
 }
 
