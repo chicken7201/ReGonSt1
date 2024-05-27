@@ -269,7 +269,7 @@
             // button_Setting_Sub1
             // 
             this.button_Setting_Sub1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Setting_Sub1.Font = new System.Drawing.Font("Segoe Print", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Setting_Sub1.Font = new System.Drawing.Font("Segoe Print", 19.75F);
             this.button_Setting_Sub1.Image = global::ReGonSt1.Properties.Resources.rec;
             this.button_Setting_Sub1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_Setting_Sub1.Location = new System.Drawing.Point(-16, -9);
@@ -277,7 +277,7 @@
             this.button_Setting_Sub1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.button_Setting_Sub1.Size = new System.Drawing.Size(300, 58);
             this.button_Setting_Sub1.TabIndex = 0;
-            this.button_Setting_Sub1.Text = "   SubMenu1";
+            this.button_Setting_Sub1.Text = "   Video Settings";
             this.button_Setting_Sub1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_Setting_Sub1.UseVisualStyleBackColor = true;
             // 
@@ -292,15 +292,15 @@
             // button_Settings_Sub2
             // 
             this.button_Settings_Sub2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_Settings_Sub2.Font = new System.Drawing.Font("Segoe Print", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Settings_Sub2.Image = global::ReGonSt1.Properties.Resources.rec;
+            this.button_Settings_Sub2.Font = new System.Drawing.Font("Segoe Print", 19.75F);
+            this.button_Settings_Sub2.Image = global::ReGonSt1.Properties.Resources.world;
             this.button_Settings_Sub2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_Settings_Sub2.Location = new System.Drawing.Point(-16, -9);
             this.button_Settings_Sub2.Name = "button_Settings_Sub2";
             this.button_Settings_Sub2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.button_Settings_Sub2.Size = new System.Drawing.Size(300, 58);
             this.button_Settings_Sub2.TabIndex = 0;
-            this.button_Settings_Sub2.Text = "   SubMenu2";
+            this.button_Settings_Sub2.Text = "   Language";
             this.button_Settings_Sub2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_Settings_Sub2.UseVisualStyleBackColor = true;
             // 
