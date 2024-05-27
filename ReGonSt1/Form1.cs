@@ -74,5 +74,11 @@ namespace ReGonSt1
         {
             SettingsTimer.Start();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            var Info = new InformationForm();
+            Info.Show();
+        }
     }
 }
