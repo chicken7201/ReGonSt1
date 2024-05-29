@@ -63,6 +63,7 @@
             this.button_Help = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel_SubForm = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.sidebar.SuspendLayout();
@@ -108,6 +109,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.LightGray;
+            this.panel2.Controls.Add(this.panel_SubForm);
             this.panel2.Controls.Add(this.sidebar);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 65);
@@ -260,7 +262,7 @@
             this.button_List1_sub2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.button_List1_sub2.Size = new System.Drawing.Size(300, 58);
             this.button_List1_sub2.TabIndex = 3;
-            this.button_List1_sub2.Text = "  Comming Soon";
+            this.button_List1_sub2.Text = "    Comming Soon";
             this.button_List1_sub2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_List1_sub2.UseVisualStyleBackColor = true;
             // 
@@ -282,7 +284,7 @@
             this.button_List1_sub3.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
             this.button_List1_sub3.Size = new System.Drawing.Size(300, 58);
             this.button_List1_sub3.TabIndex = 3;
-            this.button_List1_sub3.Text = "  Comming Soon";
+            this.button_List1_sub3.Text = "    Comming Soon";
             this.button_List1_sub3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_List1_sub3.UseVisualStyleBackColor = true;
             // 
@@ -453,6 +455,14 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // panel_SubForm
+            // 
+            this.panel_SubForm.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel_SubForm.Location = new System.Drawing.Point(269, 0);
+            this.panel_SubForm.Name = "panel_SubForm";
+            this.panel_SubForm.Size = new System.Drawing.Size(769, 616);
+            this.panel_SubForm.TabIndex = 1;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -523,6 +533,7 @@
         private System.Windows.Forms.Panel panel_List1_sub3;
         private System.Windows.Forms.Button button_List1_sub3;
         private System.Windows.Forms.Timer ListTimer;
+        private System.Windows.Forms.Panel panel_SubForm;
     }
 }
 
