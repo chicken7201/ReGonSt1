@@ -73,6 +73,7 @@
             this.linkLabel_MenuBarIcons.TabIndex = 0;
             this.linkLabel_MenuBarIcons.TabStop = true;
             this.linkLabel_MenuBarIcons.Text = "Menu Bar Icons";
+            this.linkLabel_MenuBarIcons.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_MenuBarIcons_LinkClicked);
             // 
             // label_Createdby_MenuBarIcons
             // 
@@ -104,6 +105,7 @@
             this.linkLabel_HomeButtonIcons.TabIndex = 2;
             this.linkLabel_HomeButtonIcons.TabStop = true;
             this.linkLabel_HomeButtonIcons.Text = "Home Button Icons";
+            this.linkLabel_HomeButtonIcons.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_HomeButtonIcons_LinkClicked);
             // 
             // label_CreatedBy_HelpIcons
             // 
@@ -125,6 +127,7 @@
             this.linkLabel_HelpIcons.TabIndex = 6;
             this.linkLabel_HelpIcons.TabStop = true;
             this.linkLabel_HelpIcons.Text = "Help Icons";
+            this.linkLabel_HelpIcons.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_HelpIcons_LinkClicked);
             // 
             // label_CreatedBy_SettingIcons
             // 
@@ -146,6 +149,7 @@
             this.linkLabel_SettingIcons.TabIndex = 4;
             this.linkLabel_SettingIcons.TabStop = true;
             this.linkLabel_SettingIcons.Text = "Setting Icons";
+            this.linkLabel_SettingIcons.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_SettingIcons_LinkClicked);
             // 
             // label_CreatedBy_BulletPointIcons
             // 
@@ -167,7 +171,7 @@
             this.linkLabel_BulletPointIcons.TabIndex = 14;
             this.linkLabel_BulletPointIcons.TabStop = true;
             this.linkLabel_BulletPointIcons.Text = "Bullet Point Icons";
-            this.linkLabel_BulletPointIcons.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked);
+            this.linkLabel_BulletPointIcons.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_BulletPointIcons_LinkClicked);
             // 
             // label_CreatedBy_LanguageIcons
             // 
@@ -189,6 +193,7 @@
             this.linkLabel_LanguageIcons.TabIndex = 12;
             this.linkLabel_LanguageIcons.TabStop = true;
             this.linkLabel_LanguageIcons.Text = "Language Icons";
+            this.linkLabel_LanguageIcons.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_LanguageIcons_LinkClicked);
             // 
             // label_CreatedBy_DotIcons
             // 
@@ -210,6 +215,7 @@
             this.linkLabel_DotIcons.TabIndex = 10;
             this.linkLabel_DotIcons.TabStop = true;
             this.linkLabel_DotIcons.Text = "Dot Icons";
+            this.linkLabel_DotIcons.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_DotIcons_LinkClicked);
             // 
             // label_CreatedBy_AboutIcons
             // 
@@ -231,6 +237,7 @@
             this.linkLabel_AboutIcons.TabIndex = 8;
             this.linkLabel_AboutIcons.TabStop = true;
             this.linkLabel_AboutIcons.Text = "About Icons";
+            this.linkLabel_AboutIcons.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel_AboutIcons_LinkClicked);
             // 
             // button_NextPage
             // 
