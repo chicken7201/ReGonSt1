@@ -333,6 +333,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox_DotIcons);
@@ -360,8 +361,12 @@
             this.Controls.Add(this.linkLabel_HomeButtonIcons);
             this.Controls.Add(this.label_Createdby_MenuBarIcons);
             this.Controls.Add(this.linkLabel_MenuBarIcons);
+            this.MaximizeBox = false;
             this.Name = "InformationForm";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
             this.Text = "Information";
+            this.TopMost = true;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_BulletPointIcons)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_LanguageIcons)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_AboutIcons)).EndInit();
