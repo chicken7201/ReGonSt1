@@ -123,6 +123,56 @@ namespace ReGonSt1.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
         /// </summary>
+        internal static System.Drawing.Bitmap GregTech_New_Horizons_Icon {
+            get {
+                object obj = ResourceManager.GetObject("GregTech-New-Horizons_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap GregTech_New_Horizons_Icon___복사본 {
+            get {
+                object obj = ResourceManager.GetObject("GregTech-New-Horizons_Icon - 복사본", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap GregTech_New_Horizons_Icon___복사본1 {
+            get {
+                object obj = ResourceManager.GetObject("GregTech-New-Horizons_Icon - 복사본1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap GregTech_New_Horizons_Icon___복사본2 {
+            get {
+                object obj = ResourceManager.GetObject("GregTech-New-Horizons_Icon - 복사본2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
+        internal static System.Drawing.Bitmap GregTech_New_Horizons_Icon_RemoveBakcground {
+            get {
+                object obj = ResourceManager.GetObject("GregTech-New-Horizons_Icon_RemoveBakcground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+        /// </summary>
         internal static System.Drawing.Bitmap help {
             get {
                 object obj = ResourceManager.GetObject("help", resourceCulture);

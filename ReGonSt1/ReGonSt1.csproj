@@ -128,5 +128,20 @@
   <ItemGroup>
     <None Include="Resources\control1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GregTech-New-Horizons_Icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GregTech-New-Horizons_Icon - 복사본.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GregTech-New-Horizons_Icon - 복사본1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GregTech-New-Horizons_Icon - 복사본2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GregTech-New-Horizons_Icon_RemoveBakcground.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

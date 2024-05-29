@@ -46,23 +46,23 @@
             this.SettingsTimer = new System.Windows.Forms.Timer(this.components);
             this.panel_List1Container = new System.Windows.Forms.Panel();
             this.panel_List1 = new System.Windows.Forms.Panel();
-            this.button_List1 = new System.Windows.Forms.Button();
+            this.panel_List1_sub1 = new System.Windows.Forms.Panel();
+            this.panel_List1_sub2 = new System.Windows.Forms.Panel();
+            this.button_List1_sub2 = new System.Windows.Forms.Button();
+            this.panel_List1_sub3 = new System.Windows.Forms.Panel();
+            this.button_List1_sub3 = new System.Windows.Forms.Button();
+            this.ListTimer = new System.Windows.Forms.Timer(this.components);
             this.button_Menu = new System.Windows.Forms.Button();
             this.button_Home = new System.Windows.Forms.Button();
             this.button_Settings_Sub3 = new System.Windows.Forms.Button();
             this.button_Settings_Sub2 = new System.Windows.Forms.Button();
             this.button_Setting_Sub1 = new System.Windows.Forms.Button();
             this.button_Settings = new System.Windows.Forms.Button();
+            this.button_List1_sub1 = new System.Windows.Forms.Button();
+            this.button_List1 = new System.Windows.Forms.Button();
             this.button_Help = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel_List1_sub1 = new System.Windows.Forms.Panel();
-            this.button_List1_sub1 = new System.Windows.Forms.Button();
-            this.panel_List1_sub2 = new System.Windows.Forms.Panel();
-            this.button_List1_sub2 = new System.Windows.Forms.Button();
-            this.panel_List1_sub3 = new System.Windows.Forms.Panel();
-            this.button_List1_sub3 = new System.Windows.Forms.Button();
-            this.ListTimer = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.sidebar.SuspendLayout();
@@ -76,11 +76,11 @@
             this.panel_Help.SuspendLayout();
             this.panel_List1Container.SuspendLayout();
             this.panel_List1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel_List1_sub1.SuspendLayout();
             this.panel_List1_sub2.SuspendLayout();
             this.panel_List1_sub3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -198,7 +198,7 @@
             // 
             this.panel_Help.BackColor = System.Drawing.Color.Silver;
             this.panel_Help.Controls.Add(this.button_Help);
-            this.panel_Help.Location = new System.Drawing.Point(3, 319);
+            this.panel_Help.Location = new System.Drawing.Point(3, 308);
             this.panel_Help.Name = "panel_Help";
             this.panel_Help.Size = new System.Drawing.Size(266, 62);
             this.panel_Help.TabIndex = 1;
@@ -221,9 +221,9 @@
             this.panel_List1Container.Controls.Add(this.panel_List1);
             this.panel_List1Container.Location = new System.Drawing.Point(3, 240);
             this.panel_List1Container.MaximumSize = new System.Drawing.Size(269, 186);
-            this.panel_List1Container.MinimumSize = new System.Drawing.Size(269, 73);
+            this.panel_List1Container.MinimumSize = new System.Drawing.Size(269, 62);
             this.panel_List1Container.Name = "panel_List1Container";
-            this.panel_List1Container.Size = new System.Drawing.Size(269, 73);
+            this.panel_List1Container.Size = new System.Drawing.Size(269, 62);
             this.panel_List1Container.TabIndex = 1;
             // 
             // panel_List1
@@ -234,21 +234,62 @@
             this.panel_List1.Size = new System.Drawing.Size(266, 62);
             this.panel_List1.TabIndex = 2;
             // 
-            // button_List1
+            // panel_List1_sub1
             // 
-            this.button_List1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_List1.Font = new System.Drawing.Font("Segoe Print", 21.75F);
-            this.button_List1.Image = global::ReGonSt1.Properties.Resources.list;
-            this.button_List1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_List1.Location = new System.Drawing.Point(-16, -7);
-            this.button_List1.Name = "button_List1";
-            this.button_List1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button_List1.Size = new System.Drawing.Size(300, 78);
-            this.button_List1.TabIndex = 3;
-            this.button_List1.Text = "   List";
-            this.button_List1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_List1.UseVisualStyleBackColor = true;
-            this.button_List1.Click += new System.EventHandler(this.button_List1_Click);
+            this.panel_List1_sub1.Controls.Add(this.button_List1_sub1);
+            this.panel_List1_sub1.Location = new System.Drawing.Point(1, 63);
+            this.panel_List1_sub1.Name = "panel_List1_sub1";
+            this.panel_List1_sub1.Size = new System.Drawing.Size(266, 42);
+            this.panel_List1_sub1.TabIndex = 2;
+            // 
+            // panel_List1_sub2
+            // 
+            this.panel_List1_sub2.Controls.Add(this.button_List1_sub2);
+            this.panel_List1_sub2.Location = new System.Drawing.Point(1, 102);
+            this.panel_List1_sub2.Name = "panel_List1_sub2";
+            this.panel_List1_sub2.Size = new System.Drawing.Size(266, 42);
+            this.panel_List1_sub2.TabIndex = 3;
+            // 
+            // button_List1_sub2
+            // 
+            this.button_List1_sub2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_List1_sub2.Font = new System.Drawing.Font("Segoe Print", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_List1_sub2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_List1_sub2.Location = new System.Drawing.Point(-16, -9);
+            this.button_List1_sub2.Name = "button_List1_sub2";
+            this.button_List1_sub2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.button_List1_sub2.Size = new System.Drawing.Size(300, 58);
+            this.button_List1_sub2.TabIndex = 3;
+            this.button_List1_sub2.Text = "  Comming Soon";
+            this.button_List1_sub2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_List1_sub2.UseVisualStyleBackColor = true;
+            // 
+            // panel_List1_sub3
+            // 
+            this.panel_List1_sub3.Controls.Add(this.button_List1_sub3);
+            this.panel_List1_sub3.Location = new System.Drawing.Point(2, 141);
+            this.panel_List1_sub3.Name = "panel_List1_sub3";
+            this.panel_List1_sub3.Size = new System.Drawing.Size(266, 42);
+            this.panel_List1_sub3.TabIndex = 4;
+            // 
+            // button_List1_sub3
+            // 
+            this.button_List1_sub3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_List1_sub3.Font = new System.Drawing.Font("Segoe Print", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_List1_sub3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_List1_sub3.Location = new System.Drawing.Point(-16, -9);
+            this.button_List1_sub3.Name = "button_List1_sub3";
+            this.button_List1_sub3.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.button_List1_sub3.Size = new System.Drawing.Size(300, 58);
+            this.button_List1_sub3.TabIndex = 3;
+            this.button_List1_sub3.Text = "  Comming Soon";
+            this.button_List1_sub3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_List1_sub3.UseVisualStyleBackColor = true;
+            // 
+            // ListTimer
+            // 
+            this.ListTimer.Interval = 10;
+            this.ListTimer.Tick += new System.EventHandler(this.ListTimer_Tick);
             // 
             // button_Menu
             // 
@@ -344,6 +385,37 @@
             this.button_Settings.UseVisualStyleBackColor = true;
             this.button_Settings.Click += new System.EventHandler(this.button_Settings_Click);
             // 
+            // button_List1_sub1
+            // 
+            this.button_List1_sub1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_List1_sub1.Font = new System.Drawing.Font("Segoe Print", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_List1_sub1.Image = global::ReGonSt1.Properties.Resources.GregTech_New_Horizons_Icon_RemoveBakcground;
+            this.button_List1_sub1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_List1_sub1.Location = new System.Drawing.Point(-16, -9);
+            this.button_List1_sub1.Name = "button_List1_sub1";
+            this.button_List1_sub1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.button_List1_sub1.Size = new System.Drawing.Size(300, 58);
+            this.button_List1_sub1.TabIndex = 3;
+            this.button_List1_sub1.Text = "    GT New Horizon";
+            this.button_List1_sub1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_List1_sub1.UseVisualStyleBackColor = true;
+            // 
+            // button_List1
+            // 
+            this.button_List1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_List1.Font = new System.Drawing.Font("Segoe Print", 21.75F);
+            this.button_List1.Image = global::ReGonSt1.Properties.Resources.list;
+            this.button_List1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_List1.Location = new System.Drawing.Point(-16, -12);
+            this.button_List1.Name = "button_List1";
+            this.button_List1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.button_List1.Size = new System.Drawing.Size(300, 77);
+            this.button_List1.TabIndex = 3;
+            this.button_List1.Text = "   List";
+            this.button_List1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_List1.UseVisualStyleBackColor = true;
+            this.button_List1.Click += new System.EventHandler(this.button_List1_Click);
+            // 
             // button_Help
             // 
             this.button_Help.BackColor = System.Drawing.Color.Silver;
@@ -381,77 +453,6 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // panel_List1_sub1
-            // 
-            this.panel_List1_sub1.Controls.Add(this.button_List1_sub1);
-            this.panel_List1_sub1.Location = new System.Drawing.Point(1, 63);
-            this.panel_List1_sub1.Name = "panel_List1_sub1";
-            this.panel_List1_sub1.Size = new System.Drawing.Size(266, 42);
-            this.panel_List1_sub1.TabIndex = 2;
-            // 
-            // button_List1_sub1
-            // 
-            this.button_List1_sub1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_List1_sub1.Font = new System.Drawing.Font("Segoe Print", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_List1_sub1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_List1_sub1.Location = new System.Drawing.Point(-16, -9);
-            this.button_List1_sub1.Name = "button_List1_sub1";
-            this.button_List1_sub1.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button_List1_sub1.Size = new System.Drawing.Size(300, 58);
-            this.button_List1_sub1.TabIndex = 3;
-            this.button_List1_sub1.Text = "  GT New Horizon";
-            this.button_List1_sub1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_List1_sub1.UseVisualStyleBackColor = true;
-            // 
-            // panel_List1_sub2
-            // 
-            this.panel_List1_sub2.Controls.Add(this.button_List1_sub2);
-            this.panel_List1_sub2.Location = new System.Drawing.Point(1, 102);
-            this.panel_List1_sub2.Name = "panel_List1_sub2";
-            this.panel_List1_sub2.Size = new System.Drawing.Size(266, 42);
-            this.panel_List1_sub2.TabIndex = 3;
-            // 
-            // button_List1_sub2
-            // 
-            this.button_List1_sub2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_List1_sub2.Font = new System.Drawing.Font("Segoe Print", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_List1_sub2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_List1_sub2.Location = new System.Drawing.Point(-16, -9);
-            this.button_List1_sub2.Name = "button_List1_sub2";
-            this.button_List1_sub2.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button_List1_sub2.Size = new System.Drawing.Size(300, 58);
-            this.button_List1_sub2.TabIndex = 3;
-            this.button_List1_sub2.Text = "  Comming Soon";
-            this.button_List1_sub2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_List1_sub2.UseVisualStyleBackColor = true;
-            // 
-            // panel_List1_sub3
-            // 
-            this.panel_List1_sub3.Controls.Add(this.button_List1_sub3);
-            this.panel_List1_sub3.Location = new System.Drawing.Point(2, 141);
-            this.panel_List1_sub3.Name = "panel_List1_sub3";
-            this.panel_List1_sub3.Size = new System.Drawing.Size(266, 42);
-            this.panel_List1_sub3.TabIndex = 4;
-            // 
-            // button_List1_sub3
-            // 
-            this.button_List1_sub3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button_List1_sub3.Font = new System.Drawing.Font("Segoe Print", 17.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_List1_sub3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_List1_sub3.Location = new System.Drawing.Point(-16, -9);
-            this.button_List1_sub3.Name = "button_List1_sub3";
-            this.button_List1_sub3.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button_List1_sub3.Size = new System.Drawing.Size(300, 58);
-            this.button_List1_sub3.TabIndex = 3;
-            this.button_List1_sub3.Text = "  Comming Soon";
-            this.button_List1_sub3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button_List1_sub3.UseVisualStyleBackColor = true;
-            // 
-            // ListTimer
-            // 
-            this.ListTimer.Interval = 10;
-            this.ListTimer.Tick += new System.EventHandler(this.ListTimer_Tick);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
@@ -478,11 +479,11 @@
             this.panel_Help.ResumeLayout(false);
             this.panel_List1Container.ResumeLayout(false);
             this.panel_List1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel_List1_sub1.ResumeLayout(false);
             this.panel_List1_sub2.ResumeLayout(false);
             this.panel_List1_sub3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
