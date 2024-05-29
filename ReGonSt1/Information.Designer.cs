@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.linkLabel5 = new System.Windows.Forms.LinkLabel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.linkLabel6 = new System.Windows.Forms.LinkLabel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.linkLabel7 = new System.Windows.Forms.LinkLabel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.linkLabel8 = new System.Windows.Forms.LinkLabel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.linkLabel_MenuBarIcons = new System.Windows.Forms.LinkLabel();
+            this.label_Createdby_MenuBarIcons = new System.Windows.Forms.Label();
+            this.label_CreatedBy_HomeButtonIcons = new System.Windows.Forms.Label();
+            this.linkLabel_HomeButtonIcons = new System.Windows.Forms.LinkLabel();
+            this.label_CreatedBy_HelpIcons = new System.Windows.Forms.Label();
+            this.linkLabel_HelpIcons = new System.Windows.Forms.LinkLabel();
+            this.label_CreatedBy_SettingIcons = new System.Windows.Forms.Label();
+            this.linkLabel_SettingIcons = new System.Windows.Forms.LinkLabel();
+            this.label_CreatedBy_BulletPointIcons = new System.Windows.Forms.Label();
+            this.linkLabel_BulletPointIcons = new System.Windows.Forms.LinkLabel();
+            this.label_CreatedBy_LanguageIcons = new System.Windows.Forms.Label();
+            this.linkLabel_LanguageIcons = new System.Windows.Forms.LinkLabel();
+            this.label_CreatedBy_DotIcons = new System.Windows.Forms.Label();
+            this.linkLabel_DotIcons = new System.Windows.Forms.LinkLabel();
+            this.label_CreatedBy_AboutIcons = new System.Windows.Forms.Label();
+            this.linkLabel_AboutIcons = new System.Windows.Forms.LinkLabel();
+            this.button_NextPage = new System.Windows.Forms.Button();
             this.pictureBox_BulletPointIcons = new System.Windows.Forms.PictureBox();
             this.pictureBox_LanguageIcons = new System.Windows.Forms.PictureBox();
             this.pictureBox_AboutIcons = new System.Windows.Forms.PictureBox();
@@ -63,184 +63,184 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_DotIcons)).BeginInit();
             this.SuspendLayout();
             // 
-            // linkLabel1
+            // linkLabel_MenuBarIcons
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Font = new System.Drawing.Font("Segoe Script", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(89, 20);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(260, 46);
-            this.linkLabel1.TabIndex = 0;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Menu Bar Icons";
+            this.linkLabel_MenuBarIcons.AutoSize = true;
+            this.linkLabel_MenuBarIcons.Font = new System.Drawing.Font("Segoe Script", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel_MenuBarIcons.Location = new System.Drawing.Point(89, 20);
+            this.linkLabel_MenuBarIcons.Name = "linkLabel_MenuBarIcons";
+            this.linkLabel_MenuBarIcons.Size = new System.Drawing.Size(260, 46);
+            this.linkLabel_MenuBarIcons.TabIndex = 0;
+            this.linkLabel_MenuBarIcons.TabStop = true;
+            this.linkLabel_MenuBarIcons.Text = "Menu Bar Icons";
             // 
-            // label1
+            // label_Createdby_MenuBarIcons
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(350, 26);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(332, 38);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "created by NajmunNaha";
+            this.label_Createdby_MenuBarIcons.AutoSize = true;
+            this.label_Createdby_MenuBarIcons.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Createdby_MenuBarIcons.Location = new System.Drawing.Point(350, 26);
+            this.label_Createdby_MenuBarIcons.Name = "label_Createdby_MenuBarIcons";
+            this.label_Createdby_MenuBarIcons.Size = new System.Drawing.Size(332, 38);
+            this.label_Createdby_MenuBarIcons.TabIndex = 1;
+            this.label_Createdby_MenuBarIcons.Text = "created by NajmunNaha";
             // 
-            // label2
+            // label_CreatedBy_HomeButtonIcons
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(354, 76);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(345, 38);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "created by NajmunNahar";
+            this.label_CreatedBy_HomeButtonIcons.AutoSize = true;
+            this.label_CreatedBy_HomeButtonIcons.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_CreatedBy_HomeButtonIcons.Location = new System.Drawing.Point(354, 76);
+            this.label_CreatedBy_HomeButtonIcons.Name = "label_CreatedBy_HomeButtonIcons";
+            this.label_CreatedBy_HomeButtonIcons.Size = new System.Drawing.Size(345, 38);
+            this.label_CreatedBy_HomeButtonIcons.TabIndex = 3;
+            this.label_CreatedBy_HomeButtonIcons.Text = "created by NajmunNahar";
             // 
-            // linkLabel2
+            // linkLabel_HomeButtonIcons
             // 
-            this.linkLabel2.AutoSize = true;
-            this.linkLabel2.Font = new System.Drawing.Font("Segoe Script", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel2.Location = new System.Drawing.Point(44, 70);
-            this.linkLabel2.Name = "linkLabel2";
-            this.linkLabel2.Size = new System.Drawing.Size(306, 46);
-            this.linkLabel2.TabIndex = 2;
-            this.linkLabel2.TabStop = true;
-            this.linkLabel2.Text = "Home Button Icons";
+            this.linkLabel_HomeButtonIcons.AutoSize = true;
+            this.linkLabel_HomeButtonIcons.Font = new System.Drawing.Font("Segoe Script", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel_HomeButtonIcons.Location = new System.Drawing.Point(44, 70);
+            this.linkLabel_HomeButtonIcons.Name = "linkLabel_HomeButtonIcons";
+            this.linkLabel_HomeButtonIcons.Size = new System.Drawing.Size(306, 46);
+            this.linkLabel_HomeButtonIcons.TabIndex = 2;
+            this.linkLabel_HomeButtonIcons.TabStop = true;
+            this.linkLabel_HomeButtonIcons.Text = "Home Button Icons";
             // 
-            // label3
+            // label_CreatedBy_HelpIcons
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(355, 174);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(308, 38);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "created by riajulislam";
+            this.label_CreatedBy_HelpIcons.AutoSize = true;
+            this.label_CreatedBy_HelpIcons.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_CreatedBy_HelpIcons.Location = new System.Drawing.Point(355, 174);
+            this.label_CreatedBy_HelpIcons.Name = "label_CreatedBy_HelpIcons";
+            this.label_CreatedBy_HelpIcons.Size = new System.Drawing.Size(308, 38);
+            this.label_CreatedBy_HelpIcons.TabIndex = 7;
+            this.label_CreatedBy_HelpIcons.Text = "created by riajulislam";
             // 
-            // linkLabel3
+            // linkLabel_HelpIcons
             // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Font = new System.Drawing.Font("Segoe Script", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel3.Location = new System.Drawing.Point(174, 168);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(174, 46);
-            this.linkLabel3.TabIndex = 6;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "Help Icons";
+            this.linkLabel_HelpIcons.AutoSize = true;
+            this.linkLabel_HelpIcons.Font = new System.Drawing.Font("Segoe Script", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel_HelpIcons.Location = new System.Drawing.Point(174, 168);
+            this.linkLabel_HelpIcons.Name = "linkLabel_HelpIcons";
+            this.linkLabel_HelpIcons.Size = new System.Drawing.Size(174, 46);
+            this.linkLabel_HelpIcons.TabIndex = 6;
+            this.linkLabel_HelpIcons.TabStop = true;
+            this.linkLabel_HelpIcons.Text = "Help Icons";
             // 
-            // label4
+            // label_CreatedBy_SettingIcons
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(353, 124);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(252, 38);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "created by Freepik";
+            this.label_CreatedBy_SettingIcons.AutoSize = true;
+            this.label_CreatedBy_SettingIcons.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_CreatedBy_SettingIcons.Location = new System.Drawing.Point(353, 124);
+            this.label_CreatedBy_SettingIcons.Name = "label_CreatedBy_SettingIcons";
+            this.label_CreatedBy_SettingIcons.Size = new System.Drawing.Size(252, 38);
+            this.label_CreatedBy_SettingIcons.TabIndex = 5;
+            this.label_CreatedBy_SettingIcons.Text = "created by Freepik";
             // 
-            // linkLabel4
+            // linkLabel_SettingIcons
             // 
-            this.linkLabel4.AutoSize = true;
-            this.linkLabel4.Font = new System.Drawing.Font("Segoe Script", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel4.Location = new System.Drawing.Point(134, 118);
-            this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(213, 46);
-            this.linkLabel4.TabIndex = 4;
-            this.linkLabel4.TabStop = true;
-            this.linkLabel4.Text = "Setting Icons";
+            this.linkLabel_SettingIcons.AutoSize = true;
+            this.linkLabel_SettingIcons.Font = new System.Drawing.Font("Segoe Script", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel_SettingIcons.Location = new System.Drawing.Point(134, 118);
+            this.linkLabel_SettingIcons.Name = "linkLabel_SettingIcons";
+            this.linkLabel_SettingIcons.Size = new System.Drawing.Size(213, 46);
+            this.linkLabel_SettingIcons.TabIndex = 4;
+            this.linkLabel_SettingIcons.TabStop = true;
+            this.linkLabel_SettingIcons.Text = "Setting Icons";
             // 
-            // label5
+            // label_CreatedBy_BulletPointIcons
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(355, 371);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(266, 38);
-            this.label5.TabIndex = 15;
-            this.label5.Text = "created by Anggara";
+            this.label_CreatedBy_BulletPointIcons.AutoSize = true;
+            this.label_CreatedBy_BulletPointIcons.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_CreatedBy_BulletPointIcons.Location = new System.Drawing.Point(355, 371);
+            this.label_CreatedBy_BulletPointIcons.Name = "label_CreatedBy_BulletPointIcons";
+            this.label_CreatedBy_BulletPointIcons.Size = new System.Drawing.Size(266, 38);
+            this.label_CreatedBy_BulletPointIcons.TabIndex = 15;
+            this.label_CreatedBy_BulletPointIcons.Text = "created by Anggara";
             // 
-            // linkLabel5
+            // linkLabel_BulletPointIcons
             // 
-            this.linkLabel5.AutoSize = true;
-            this.linkLabel5.Font = new System.Drawing.Font("Segoe Script", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel5.Location = new System.Drawing.Point(54, 365);
-            this.linkLabel5.Name = "linkLabel5";
-            this.linkLabel5.Size = new System.Drawing.Size(299, 46);
-            this.linkLabel5.TabIndex = 14;
-            this.linkLabel5.TabStop = true;
-            this.linkLabel5.Text = "Bullet Point Icons";
-            this.linkLabel5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked);
+            this.linkLabel_BulletPointIcons.AutoSize = true;
+            this.linkLabel_BulletPointIcons.Font = new System.Drawing.Font("Segoe Script", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel_BulletPointIcons.Location = new System.Drawing.Point(54, 365);
+            this.linkLabel_BulletPointIcons.Name = "linkLabel_BulletPointIcons";
+            this.linkLabel_BulletPointIcons.Size = new System.Drawing.Size(299, 46);
+            this.linkLabel_BulletPointIcons.TabIndex = 14;
+            this.linkLabel_BulletPointIcons.TabStop = true;
+            this.linkLabel_BulletPointIcons.Text = "Bullet Point Icons";
+            this.linkLabel_BulletPointIcons.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel5_LinkClicked);
             // 
-            // label6
+            // label_CreatedBy_LanguageIcons
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(353, 321);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(252, 38);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "created by Freepik";
+            this.label_CreatedBy_LanguageIcons.AutoSize = true;
+            this.label_CreatedBy_LanguageIcons.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_CreatedBy_LanguageIcons.Location = new System.Drawing.Point(353, 321);
+            this.label_CreatedBy_LanguageIcons.Name = "label_CreatedBy_LanguageIcons";
+            this.label_CreatedBy_LanguageIcons.Size = new System.Drawing.Size(252, 38);
+            this.label_CreatedBy_LanguageIcons.TabIndex = 13;
+            this.label_CreatedBy_LanguageIcons.Text = "created by Freepik";
             // 
-            // linkLabel6
+            // linkLabel_LanguageIcons
             // 
-            this.linkLabel6.AutoSize = true;
-            this.linkLabel6.Font = new System.Drawing.Font("Segoe Script", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel6.Location = new System.Drawing.Point(98, 315);
-            this.linkLabel6.Name = "linkLabel6";
-            this.linkLabel6.Size = new System.Drawing.Size(251, 46);
-            this.linkLabel6.TabIndex = 12;
-            this.linkLabel6.TabStop = true;
-            this.linkLabel6.Text = "Language Icons";
+            this.linkLabel_LanguageIcons.AutoSize = true;
+            this.linkLabel_LanguageIcons.Font = new System.Drawing.Font("Segoe Script", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel_LanguageIcons.Location = new System.Drawing.Point(98, 315);
+            this.linkLabel_LanguageIcons.Name = "linkLabel_LanguageIcons";
+            this.linkLabel_LanguageIcons.Size = new System.Drawing.Size(251, 46);
+            this.linkLabel_LanguageIcons.TabIndex = 12;
+            this.linkLabel_LanguageIcons.TabStop = true;
+            this.linkLabel_LanguageIcons.Text = "Language Icons";
             // 
-            // label7
+            // label_CreatedBy_DotIcons
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(354, 273);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(419, 38);
-            this.label7.TabIndex = 11;
-            this.label7.Text = "created by Md Tanvirul Haque";
+            this.label_CreatedBy_DotIcons.AutoSize = true;
+            this.label_CreatedBy_DotIcons.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_CreatedBy_DotIcons.Location = new System.Drawing.Point(354, 273);
+            this.label_CreatedBy_DotIcons.Name = "label_CreatedBy_DotIcons";
+            this.label_CreatedBy_DotIcons.Size = new System.Drawing.Size(419, 38);
+            this.label_CreatedBy_DotIcons.TabIndex = 11;
+            this.label_CreatedBy_DotIcons.Text = "created by Md Tanvirul Haque";
             // 
-            // linkLabel7
+            // linkLabel_DotIcons
             // 
-            this.linkLabel7.AutoSize = true;
-            this.linkLabel7.Font = new System.Drawing.Font("Segoe Script", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel7.Location = new System.Drawing.Point(188, 267);
-            this.linkLabel7.Name = "linkLabel7";
-            this.linkLabel7.Size = new System.Drawing.Size(159, 46);
-            this.linkLabel7.TabIndex = 10;
-            this.linkLabel7.TabStop = true;
-            this.linkLabel7.Text = "Dot Icons";
+            this.linkLabel_DotIcons.AutoSize = true;
+            this.linkLabel_DotIcons.Font = new System.Drawing.Font("Segoe Script", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel_DotIcons.Location = new System.Drawing.Point(188, 267);
+            this.linkLabel_DotIcons.Name = "linkLabel_DotIcons";
+            this.linkLabel_DotIcons.Size = new System.Drawing.Size(159, 46);
+            this.linkLabel_DotIcons.TabIndex = 10;
+            this.linkLabel_DotIcons.TabStop = true;
+            this.linkLabel_DotIcons.Text = "Dot Icons";
             // 
-            // label8
+            // label_CreatedBy_AboutIcons
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(350, 223);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(211, 38);
-            this.label8.TabIndex = 9;
-            this.label8.Text = "created by srip";
+            this.label_CreatedBy_AboutIcons.AutoSize = true;
+            this.label_CreatedBy_AboutIcons.Font = new System.Drawing.Font("Segoe Script", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_CreatedBy_AboutIcons.Location = new System.Drawing.Point(350, 223);
+            this.label_CreatedBy_AboutIcons.Name = "label_CreatedBy_AboutIcons";
+            this.label_CreatedBy_AboutIcons.Size = new System.Drawing.Size(211, 38);
+            this.label_CreatedBy_AboutIcons.TabIndex = 9;
+            this.label_CreatedBy_AboutIcons.Text = "created by srip";
             // 
-            // linkLabel8
+            // linkLabel_AboutIcons
             // 
-            this.linkLabel8.AutoSize = true;
-            this.linkLabel8.Font = new System.Drawing.Font("Segoe Script", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel8.Location = new System.Drawing.Point(144, 217);
-            this.linkLabel8.Name = "linkLabel8";
-            this.linkLabel8.Size = new System.Drawing.Size(202, 46);
-            this.linkLabel8.TabIndex = 8;
-            this.linkLabel8.TabStop = true;
-            this.linkLabel8.Text = "About Icons";
+            this.linkLabel_AboutIcons.AutoSize = true;
+            this.linkLabel_AboutIcons.Font = new System.Drawing.Font("Segoe Script", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel_AboutIcons.Location = new System.Drawing.Point(144, 217);
+            this.linkLabel_AboutIcons.Name = "linkLabel_AboutIcons";
+            this.linkLabel_AboutIcons.Size = new System.Drawing.Size(202, 46);
+            this.linkLabel_AboutIcons.TabIndex = 8;
+            this.linkLabel_AboutIcons.TabStop = true;
+            this.linkLabel_AboutIcons.Text = "About Icons";
             // 
-            // button1
+            // button_NextPage
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(711, 397);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 53);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "->\r\n";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button_NextPage.Font = new System.Drawing.Font("Segoe Print", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_NextPage.Location = new System.Drawing.Point(711, 397);
+            this.button_NextPage.Name = "button_NextPage";
+            this.button_NextPage.Size = new System.Drawing.Size(86, 53);
+            this.button_NextPage.TabIndex = 16;
+            this.button_NextPage.Text = "->\r\n";
+            this.button_NextPage.UseVisualStyleBackColor = true;
             // 
             // pictureBox_BulletPointIcons
             // 
@@ -336,23 +336,23 @@
             this.Controls.Add(this.pictureBox_SettingIcons);
             this.Controls.Add(this.pictureBox_HomeButtonIcons);
             this.Controls.Add(this.pictureBox_MenuBarIcon);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.linkLabel5);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.linkLabel6);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.linkLabel7);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.linkLabel8);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.linkLabel3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.linkLabel4);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.linkLabel2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.linkLabel1);
+            this.Controls.Add(this.button_NextPage);
+            this.Controls.Add(this.label_CreatedBy_BulletPointIcons);
+            this.Controls.Add(this.linkLabel_BulletPointIcons);
+            this.Controls.Add(this.label_CreatedBy_LanguageIcons);
+            this.Controls.Add(this.linkLabel_LanguageIcons);
+            this.Controls.Add(this.label_CreatedBy_DotIcons);
+            this.Controls.Add(this.linkLabel_DotIcons);
+            this.Controls.Add(this.label_CreatedBy_AboutIcons);
+            this.Controls.Add(this.linkLabel_AboutIcons);
+            this.Controls.Add(this.label_CreatedBy_HelpIcons);
+            this.Controls.Add(this.linkLabel_HelpIcons);
+            this.Controls.Add(this.label_CreatedBy_SettingIcons);
+            this.Controls.Add(this.linkLabel_SettingIcons);
+            this.Controls.Add(this.label_CreatedBy_HomeButtonIcons);
+            this.Controls.Add(this.linkLabel_HomeButtonIcons);
+            this.Controls.Add(this.label_Createdby_MenuBarIcons);
+            this.Controls.Add(this.linkLabel_MenuBarIcons);
             this.Name = "InformationForm";
             this.Text = "Information";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_BulletPointIcons)).EndInit();
@@ -370,23 +370,23 @@
 
         #endregion
 
-        private System.Windows.Forms.LinkLabel linkLabel1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.LinkLabel linkLabel2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.LinkLabel linkLabel3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.LinkLabel linkLabel4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.LinkLabel linkLabel5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.LinkLabel linkLabel6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.LinkLabel linkLabel7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.LinkLabel linkLabel8;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.LinkLabel linkLabel_MenuBarIcons;
+        private System.Windows.Forms.Label label_Createdby_MenuBarIcons;
+        private System.Windows.Forms.Label label_CreatedBy_HomeButtonIcons;
+        private System.Windows.Forms.LinkLabel linkLabel_HomeButtonIcons;
+        private System.Windows.Forms.Label label_CreatedBy_HelpIcons;
+        private System.Windows.Forms.LinkLabel linkLabel_HelpIcons;
+        private System.Windows.Forms.Label label_CreatedBy_SettingIcons;
+        private System.Windows.Forms.LinkLabel linkLabel_SettingIcons;
+        private System.Windows.Forms.Label label_CreatedBy_BulletPointIcons;
+        private System.Windows.Forms.LinkLabel linkLabel_BulletPointIcons;
+        private System.Windows.Forms.Label label_CreatedBy_LanguageIcons;
+        private System.Windows.Forms.LinkLabel linkLabel_LanguageIcons;
+        private System.Windows.Forms.Label label_CreatedBy_DotIcons;
+        private System.Windows.Forms.LinkLabel linkLabel_DotIcons;
+        private System.Windows.Forms.Label label_CreatedBy_AboutIcons;
+        private System.Windows.Forms.LinkLabel linkLabel_AboutIcons;
+        private System.Windows.Forms.Button button_NextPage;
         private System.Windows.Forms.PictureBox pictureBox_MenuBarIcon;
         private System.Windows.Forms.PictureBox pictureBox_HomeButtonIcons;
         private System.Windows.Forms.PictureBox pictureBox_HelpIcons;
