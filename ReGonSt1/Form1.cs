@@ -14,6 +14,7 @@ namespace ReGonSt1
     {
         bool sidebarExpand;
         bool settingsCollapsed;
+        bool listCollapsed;
 
         public Form1()
         {
@@ -79,6 +80,33 @@ namespace ReGonSt1
         {
             var Info = new InformationForm();
             Info.Show();
+        }
+
+        private void ListTimer_Tick(object sender, EventArgs e)
+        {
+            if (listCollapsed)
+            {
+                panel_List1Container.Height += 10;
+                if (panel_List1Container.Height == panel_List1Container.MaximumSize.Height)
+                {
+                    listCollapsed = false;
+                    ListTimer.Stop();
+                }
+            }
+            else
+            {
+                panel_List1Container.Height -= 10;
+                if (panel_List1Container.Height == panel_List1Container.MinimumSize.Height)
+                {
+                    listCollapsed = true;
+                    ListTimer.Stop();
+                }
+            }
+        }
+
+        private void button_List1_Click(object sender, EventArgs e)
+        {
+            ListTimer.Start();
         }
     }
 }
