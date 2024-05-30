@@ -15,6 +15,7 @@ namespace ReGonSt1
         bool sidebarExpand;
         bool settingsCollapsed;
         bool listCollapsed;
+        bool sub1Collapsed;
 
         public Form1()
         {
@@ -47,6 +48,7 @@ namespace ReGonSt1
         private void button_Menu_Click(object sender, EventArgs e)
         {
             sidebarTimer.Start();
+            ListSub1Timer.Start();
         }
 
         private void SettingsTimer_Tick(object sender, EventArgs e)
@@ -107,6 +109,42 @@ namespace ReGonSt1
         private void button_List1_Click(object sender, EventArgs e)
         {
             ListTimer.Start();
+        }
+
+        private void button_Help_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button_List1_sub1_Click(object sender, EventArgs e)
+        {
+            form_GTNH GTNH_forms = new form_GTNH();
+            GTNH_forms.TopLevel = false;
+            panel_SubForm.Controls.Add(GTNH_forms);
+            GTNH_forms.BringToFront();
+            GTNH_forms.Show();
+        }
+
+        private void ListSub1Timer_Tick(object sender, EventArgs e)
+        {
+            if (sub1Collapsed)
+            {
+                panel_SubForm.Width -= 10;
+                if (panel_SubForm.Width == panel_SubForm.MinimumSize.Width)
+                {
+                    sub1Collapsed = false;
+                    ListSub1Timer.Stop();
+                }
+            }
+            else
+            {
+                panel_SubForm.Height += 10;
+                if (panel_SubForm.Width == panel_SubForm.MaximumSize.Width)
+                {
+                    sub1Collapsed = true;
+                    ListSub1Timer.Stop();
+                }
+            }
         }
     }
 }
